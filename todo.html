@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2 class="logo">🌙 Syncscribe</h2>
+
+        <button class="create-btn">+ Create Note</button>
+
+        <nav class="menu">
+            <p>🔍 Search</p>
+            <p>🗂 Archives</p>
+        </nav>
+
+        <h4>Folders</h4>
+        <ul class="folders">
+            <li>Bucket List</li>
+            <li>Finances</li>
+            <li>Travel Plans</li>
+            <li>Shopping</li>
+            <li>Personal</li>
+            <li>Work</li>
+            <li>Projects</li>
+        </ul>
+
+        <div class="bottom-menu">
+            <p>❓ Help</p>
+            <p>⚙ Settings</p>
+        </div>
+    </aside>
+
+
+    <!-- Main Content -->
+    <main class="main">
+
+        <div class="top-bar">
+            <h1>My Notes</h1>
+            <div class="filters">
+                <button class="active">Today</button>
+                <button>This Week</button>
+                <button>This Month</button>
+            </div>
+        </div>
+
+        <!-- Notes Cards -->
+        <div class="notes-grid">
+            <div class="note-card purple">
+                <div class="note-header">
+                    <h3>Reminders</h3>
+                    <span>8:00 PM</span>
+                </div>
+                <ul>
+                    <li>Dentist appointment on Tuesday</li>
+                    <li>Submit report by end of day</li>
+                    <li>Send email to boss</li>
+                </ul>
+            </div>
+
+            <div class="note-card peach">
+                <div class="note-header">
+                    <h3>Reminders</h3>
+                    <span>8:00 PM</span>
+                </div>
+                <ul>
+                    <li>Dentist appointment on Tuesday</li>
+                    <li>Submit report by end of day</li>
+                    <li>Send email to boss</li>
+                </ul>
+            </div>
+
+            <div class="note-card green">
+                <div class="note-header">
+                    <h3>Random Thoughts</h3>
+                    <span>9:45 PM</span>
+                </div>
+                <ul>
+                    <li>Success is a journey</li>
+                    <li>Try a new recipe this weekend</li>
+                    <li>Don't forget to water plants</li>
+                </ul>
+            </div>
+
+            <div class="note-card yellow">
+                <div class="note-header">
+                    <h3>Books to Read</h3>
+                    <span></span>
+                </div>
+                <ul>
+                    <li>The Power of Habit</li>
+                    <li>Atomic Habits</li>
+                    <li>The Alchemist</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Recent Folders -->
+        <div class="recent-section">
+            <h2>Recent Folders</h2>
+
+            <div class="folder-grid">
+                <div class="folder">BL<br><span>Bucket List</span></div>
+                <div class="folder">Fi<br><span>Finances</span></div>
+                <div class="folder">TP<br><span>Travel Plans</span></div>
+                <div class="folder">Sh<br><span>Shopping</span></div>
+                <div class="folder">Pe<br><span>Personal</span></div>
+            </div>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>
